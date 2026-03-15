@@ -1,15 +1,15 @@
 # Customer Sales Analysis using SQL
 
-## Project Overview
-This project analyzes customer purchase behavior using SQL queries. 
-The objective is to extract meaningful business insights from sales data such as regional performance, top customers, and category trends.
+## Overview
+This project demonstrates how SQL can be used to analyze customer sales data and extract meaningful business insights.
 
 ## Tools Used
+- MySQL
 - MySQL Workbench
 - SQL
 
 ## Dataset
-A sample sales dataset containing:
+The dataset contains the following fields:
 - Order ID
 - Customer Name
 - Region
@@ -18,31 +18,30 @@ A sample sales dataset containing:
 - Order Date
 
 ## Analysis Performed
-The project answers several business questions:
+The project answers important business questions such as:
 
-- Total number of orders
-- Total revenue generated
-- Average order value
-- Sales by region
-- Sales by product category
-- Top customers by spending
-- Monthly revenue trends
+- What is the total revenue generated?
+- Which region generates the most sales?
+- Which customers spend the most?
+- Which product category performs best?
+- What is the monthly revenue trend?
 
 ## SQL Concepts Used
 - SELECT
 - WHERE
 - GROUP BY
 - ORDER BY
-- COUNT
-- SUM
-- AVG
-- MAX / MIN
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
 - LIMIT
 
 ## Key Insights
-- West region generated the highest sales.
-- Technology category contributed the largest revenue share.
-- A small number of customers accounted for the highest spending.
+- West region generated the highest revenue.
+- Technology category contributed the largest share of sales.
+- A small number of customers generated the highest spending.
 
 ## Project Structure
 customer-sales-analysis-sql
